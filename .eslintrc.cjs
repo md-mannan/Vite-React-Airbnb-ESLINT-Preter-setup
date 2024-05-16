@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  env: { browser: true, es2020: true,"node": true,"jest": true },
+  env: { browser: true, es2020: true,'node': true,'jest': true },
 
 
 
@@ -29,6 +29,7 @@ module.exports = {
   settings: { react: { version: '18.2' } },
   // plugins: ['react-refresh'],
   rules: {
+    'react/prefer-stateless-function': [<enabled>, { 'ignorePureComponents': <ignorePureComponents> }],
     'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }], // Allow JSX in .js files
     'react/jsx-no-target-blank': 'off',
     'react-refresh/only-export-components': [
