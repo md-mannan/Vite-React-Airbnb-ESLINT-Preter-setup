@@ -5,7 +5,7 @@ import { Button, Container } from 'react-bootstrap';
 function App() {
     return (
         <Container>
-            <Button className="btn btn-primary">Hi</Button>
+            <Button className="btn btn-primary">Click Button</Button>
         </Container>
     );
 }

@@ -29,7 +29,8 @@ module.exports = {
   settings: { react: { version: '18.2' } },
   // plugins: ['react-refresh'],
   rules: {
-    'react/prefer-stateless-function': [<enabled>, { 'ignorePureComponents': <ignorePureComponents> }],
+    'no-unused-vars': ['error', { 'varsIgnorePattern': 'React' }],
+    // 'react/prefer-stateless-function': [<enabled>, { 'ignorePureComponents': <ignorePureComponents> }],
     'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }], // Allow JSX in .js files
     'react/jsx-no-target-blank': 'off',
     'react-refresh/only-export-components': [
